@@ -1,0 +1,356 @@
+
+Hello Dhiraj Mathankar This is sql  playlist 
+
+_____________
+Question
+_____________
+
+#. what is data 
+#. data is database and type of database available
+#. What is sql language
+#. what is psql language
+#. sql language advantage and disadvantage || this question is reamening disadvantage please complete it.
+#. what is DBMS.
+#. Example of the database management system application
+#. what is file and what is file system.
+#. what is the drowback of the file system.
+#. advantage of the dbms over the file system.
+#. different between file system and databse management system.
+#. level of abstraction.
+#. 3 tier schema 
+#. what is schema type of schema ?
+#. what is data model in DBMS.
+#. what is  data base language why we use this language explain one by one 
+#. what is ACID property.
+#. what is attribute and there type.
+#. what is key in DBMS and type of key 
+#. what is strong entity and weak entity
+_____________
+Anserw
+_____________
+
+
+/*
+Note - use full data is called information 
+     - calletion of the row data is called data.
+*/
+
+
+/*
+#. what is data 
+Ans. data that means it is colletion of the row data row data means text, number, string, image, audio, video this data is called row data.
+*/
+
+/*
+#. data is database and type of database available
+Ans. database it is calletion of the data that is called databased. 
+    different type of database avalable now a days
+	# traditional database
+	# multimedia database
+	# graphical database
+	# dataware house
+
+	# traditional database - traditional database that means it is a use for the store text type of data into the data.
+
+	# multimedia database - multimedia database this database is use for the store media type of the into the database like - image, audio, video, mp3, mp4 data we can store into the database.
+
+	# graphical database - graphical database this type of database it is use for the store a graphical data into the database.
+
+    # dataware house - graphical database this type of database store data from the various databasees and places to store database, or it is calletion of the databases.
+
+*/
+
+/*
+#. What is sql language
+Ans. sql language stand for structure query language it is use for the perform a menuplation on the data like insertion deletion updation this type of operation we con run on the data. and it is also structure query language .
+*/
+
+/*
+#. what is psql language
+Ans. psql stand for procedural structure query language it is similar to the sql language but in this language in which number of step reurment this type of language is called psql. 
+*/
+
+/*
+#. sql language advantage and disadvantage
+Ans. sql this programming language advantage is a 
+    * using this language we can easilly update and insert data into the data base
+	* very simple language
+	* easy to mantend database using this programming language 
+	
+*/
+
+/*
+#. what is DBMS.
+Ans. DBMS stand for the "DATA BASE MANAGMENT SYSTEM " it is a software it is use for the store and manupulate data for the use this software 
+
+Note - it is software not a database like MYSQL Workbanch , Oracle software 
+*/
+
+/*
+#. Example of the database management system application
+Ans. #. university
+     #. arline
+	 #. banking
+	 #. sales
+	 
+*/
+
+/*
+#. what is file and what is file system.
+Ans. file it is container that cantaint information in  non-structure form 
+    ... File system it is a software it is use for the store and  manage file of the data into the hard disk.it is allow ot access only single file at a one time 
+
+*/
+
+/*
+#. what is the drowback of the file system.
+Ans. data redundance and consistency :- multipal file format duplication of information in diffirent file data redundancy load to data inconsistancy all copy are not update may be property 
+
+Difficulty in data accessing :- need to write a new program to carry out new task 
+
+data isolation :- data are asociate in multipal files and in diffirent format program to relevent the approprite data
+
+dependancy :- on appilcation program
+
+integrity :- problems
+
+*/
+
+
+/*
+
+#. advantage of the dbms over the file system.
+Ans. No - redundancy data - data redundancy remove by a normlization no data duplicate saves storage and improve access time 
+
+data consistancy and integrity :- the root cause at data incosistancy is data redundancy since data normlization takes care inconsistancy also bean takes care of as part of it 
+
+security :- it is easir to apply access canst raint in databse system so that only authontication user is able to access the data each user has a diffrent set of  access this data is served from the leaks and manus if data 
+*/
+
+
+/*
+#. different between file system and databse management system.
+Ans. 
+    File System : 
+
+    * file system is a software  that manage and oraganed files in a storage within a computer
+    * redundancy data can be present into the file system
+	* file system data in not efficient query not present in file system 
+	* there is less data consistancy in file system 
+	* it is leass complex to DBMS
+	* it is less efficient to DBMS
+	 
+	 DBMS :: 
+	 
+	 * Database management system it is a software use for the manageing a data 
+	 * in dbms there is no redundancy data
+	 * dbms in efficints query present 
+	 * there is more data consistency become of the precess of normlization
+	 * it has more complenity in banding as compare to file system.
+	 * it has compalively higher cost that file system.
+	 
+ */
+
+ /*
+
+ #. level of abstraction.
+ Ans. sql in which three level of abstraction present in sql it is based on the 3 tier schema in which very simple 3 layer present 
+ * view level
+ * logical level
+ * physical level 
+ 
+ *view level of abstraction - highest level of data abstraction this level describle database part of the entire intraction with datbase system via application programs hide details of tdata type.
+ 
+ * logical level :- this is the midddle level of 3 level data abstraction architecture it describle what data is stored in database and what relationship exist among those data.
+ 
+ physical level of abstraction :- this is very lowest level of the abstraction it describle how data is actually store data in database you can get the ccomplex data structure detaails this level .
+ 
+ */
+
+ /*
+ #. what is schema type of schema ? ?
+ Ans. Schema it is logical structure of an relation schema and instance both simillare type of variable in programming 
+ 
+      :: 3 type of schema present :: 
+	  * physical of schema - it is describle database design at physical level physical level of database
+	  
+	  * logical schema : it describle database design at logical level structure of database
+	  
+	  * sub-schema :- it describle deffirent view of database it's level on user intral with data base
+	  
+*/
+
+/*
+#. what is data model in DBMS.
+Ans. data model it is a logical structure of the data base and design a logical model how to look like of the final database .
+    
+_____________________
+type of data model
+_____________________
+
+1. relational data model
+2. entity relation data model
+3. object based data model
+4. hirachical data model
+5. network data model
+
+
+1. relational data model
+ most widely use model bu connercial data prossesing application
+ relation data model it is use for the defined relation between two table there use this data model
+ ATTRIBUTE :- each column in a relation is called am attribute the value of the 
+record / truple :- truple or record each reltion in which row is called truple and record. 
+
+2. entity relation data model
+entity relation data model this model use for the relation represent in the form of the digram which is know as a entity relationship daigram.
+
+3. object based data model
+object based data model in which every thing represent in the form of the object 
+
+4. hirachical data model
+hirachical data model in which data represent in the form of the tree like hirachical form.
+
+5. network data model
+
+*/
+
+/*
+#. what is  data base language why we use this language explain one by one 
+Ans. data base language it is use for the perform a manuplation on the data like insertion deletion and updation .
+ database in which 4 type of language avaialble .
+ 1. DDL (data defination language )
+ 2. DCL (data control language )
+ 3. DML (data manuplation language )
+ 4. TCL ( transation control language )
+
+1. DDL (data defination language )
+this language use for the create a instance of the relation 
+
+in which 4 command avaiable 
+* create
+* alert
+* drop
+* truncate
+
+create :- create command use for create a instance of the relation and database instance 
+alert :- alert command it is use for the apply the changes into relation structure 
+drop :- drop command it is use for the drop relation 
+truncate :- truncate command it is use for the remove data from the relation without reflaction there logical schema .
+
+2. DCL (data control language )
+ DCL (data control language )  this language it is use for the apply the control on the data user acces allow or not .
+ in which also 2 command avaiable like 
+ revock  :- this command use for the allow to user for access data .
+ grant :- grant command it is use for the take return permision from the use of the data access .
+
+ 3. DML :- DML (data manuplation language ) data manuplation language it is use for the update existing data into like update, insert
+ like :- 
+ * insert
+ * delete 
+ * update 
+ * select
+
+ 4. TCL :- TCL (transation controal language ) transation control language it is use for manage all transaction  
+ in which available command is :
+ 1. savepoint
+ 2. commite
+ 3. rollback
+
+
+*/
+
+/*
+#. what is ACID property.
+Ans. ACID stand for 
+A - atomacity
+C - consistancy
+I - isolation
+D - durablity
+
+A - atomacity : atomacity that means any one transaction failed before commite than all transaction restart from begining . that is atomacity property
+
+C - consistancy :- consistancy that means table in which should be data consiste before and after the transaction 
+
+I - isolation :- isolation that means paraller transection convert into serial transaction 
+
+D - durablity :- durablity that means any changes apply into data base that changes permanetally accore 
+
+
+*/
+
+/*
+#. what is attribute and there type.
+Ans. attribute is object or thing in the real word that is distigustable from other object 
+attribute - is use to describle the property of an entity 
+
+type of attribute 
+simple attribute  - simple attribute are atomic value which connot be divided into futher part
+composite attribute - composite attribute are more than one simple attribute 
+* A compositeabttribute is devided in a three like structure 
+
+ name 
+ frist name  ----  last name 
+ this two attribute in which devided that is called composite attribute 
+ store attribute - store attribute are phisically store in database 
+ deriived attribute - derived attribute are the attribute the donot exist in the data base but there value are derived from other attribute present in the databse 
+key - key attribute the attribute which uniualy identify each only in the entity called key attribute 
+
+ */
+
+
+ /*
+ #. what is key in DBMS and type of key 
+ Ans. key it is attribute or set of attribute that uniqualy identify the recored from the table that is called key 
+ 
+ type of key 
+  * super key
+  * candidate key
+  * primary key
+  * alternate key 
+  * foregin key 
+  * composite key 
+  * serogate key
+  
+
+    * super key :- super key it is set of all the posible key that uniqualy identity row that key cobination is called super key.
+
+
+	* condidate key : candidate key it is sub set of the super key .
+	super key with no redundent data that is called condition key .
+	it is attribute or set of attribute that uniqualy identify the truple .
+	a condidate key is a minimal super key or super key with no redundate data attribute .
+
+
+	* primary key :- a primary key it is attribute of set of attribute that uniqualy identify the recored and in which not null and unquie value present
+
+	* alernate key :- out of all condidate key only one get a select as a primary key remaning key are know as alternate key 
+
+	* alternate that means in which all candidate in which select only one key as a primary key and all remaning key is called alternate key.
+
+	* foregin key :- foregin key it is use to link two tableand foregin key it is take a refrence to the primary key.
+
+	foregin that means the child table of the primary key to take refremce from the prent table of the foregin key.
+
+	* composite key :- A key that has more than one attribute is know as composite key it is also know as composite key .
+	composite key :- it is combination of the one or more than one key that composition is called composite key.
+
+
+  */
+
+/*
+
+  #. what is strong entity and weak entity
+  Ans. 
+      strong entity :
+	  * strong entity always has primary key 
+	  * strong entity is not depended of any other entity.
+	  * strong entity is represented by using single rectangle
+	  * strong entity have either total parciticipation or not
+	  
+	  weak entity :
+	  * while weak entity has partial key or discrimationtore key 
+	  * weak entity is depenals on strong entity
+	  * weak entity is represent using double rectangle 
+	  * while weak entity always has total participation.
+
+*/
